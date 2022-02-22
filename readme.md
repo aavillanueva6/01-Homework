@@ -1,11 +1,12 @@
-# semantic-markup
+# Semantic Markup #
 
-## this is the first homework assignment for my coding bootcamp
+## This is the first homework assignment for my coding bootcamp. ##
 
-The task of this assignment was to refactor a website to improve its accessibility.  The initial version of the html for the site did not use any semantic html tags to structure the site.  Most of the elements in the site were classified as \<div>'s.  A screenshot of the original code is below:
+The task of this assignment was to refactor a website to improve its accessibility.  The initial version of the html for the site largely did not use semantic html tags to structure the site.  Most of the elements in the site were classified as \<div>'s.  A screenshot of the original code is below:
 
+![A screenshot of the starting code.  Note that most of the html elements are defined as div's and no alt attributes are assigned to the img elements.](./assets/images/initial_html.png)
 
-A summary of changes to the code are as follows:
+A summary of changes that I made to the code are as follows:
 
 * A title was added to the \<head> element
 * \<div> with class "header" was changed to a \<header>
@@ -23,9 +24,6 @@ A summary of changes to the code are as follows:
     * This resulted in a required change to the css file.  A style was defined for the \<h2> element inside of the footer class.  This was updated to reference the updated \<h4> element.
 * an alt property was added to all \<img> elements
 * comments were added to both the html and the css files to provide brief descriptions of what each section of code is doing.
-* 
-* 
-* 
 
 The deployed version of the website with my refactored code is live on github pages at the following link:  
 https://aavillanueva6.github.io/01-Homework/
