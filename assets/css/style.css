@@ -4,52 +4,62 @@
     margin: 0;
 }
 /* sets the global formatting for the site */
+
 body {
     background-color: #d9dcd6;
 }
 /* defines the default background color for everything in the <body> of the of the site */
-.header {
+
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 /* defines the font and color of the text, as well as the color of the background and space around the header */
-.header h1 {
+
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* defines the display type and the font size of the <h1> element, inside of the header class */
-.header h1 .seo {
+/* defines the display type and the font size of the <h1> element, inside of the header element */
+
+header h1 .seo {
     color: #d9dcd6;
 }
-/* defines the font color or the seo class, inside of the <h1> element, inside of the header class */
-.header nav {
+/* defines the font color or the seo class, inside of the <h1> element, inside of the header element */
+
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-/* defines the styling of the <nav> element, inside of the header class */
-.header nav ul {
+/* defines the styling of the <nav> element, inside of the header element */
+
+header nav ul {
     list-style-type: none;
 }
-/* defines the styling of the <ul> element, inside of the <nav> element, inside of the header class */
-.header nav ul li {
+/* defines the styling of the <ul> element, inside of the <nav> element, inside of the header element */
+
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
-/* defines the styling of the <il> element, inside of the <ul> element, inside of the <nav> element, inside of the header class */
+/* defines the styling of the <il> element, inside of the <ul> element, inside of the <nav> element, inside of the header element */
+
 a {
     color: #ffffff;
     text-decoration: none;
 }
 /* defines the styling of the <a> elements */
+
 p {
     font-size: 16px;
 }
 /* defines the styling of the <p> elements */
+
 .backgroundImage {
     height: 800px;
     width: 100%;
@@ -59,22 +69,26 @@ p {
     background-position: center;
 }
 /* defines the styling of the backgroundImage class */
+
 .float-left {
     float: left;
     margin-right: 25px;
 }
 /* defines the styling of the float-left class */
+
 .float-right {
     float: right;
     margin-left: 25px;
 }
 /* defines the styling of the float-right class */
+
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 /* defines the styling of the content class */
+
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,55 +100,27 @@ p {
     background-color: #2589bd;
 }
 /* defines the styling of the benefits class */
-.benefit-lead {
+
+.benefit-articles {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/* defines the styling of the benefit-lead class */
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* defines the styling of the benefit-brand class */
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-/* defines the styling of the benefit-cost class */
-.benefit-lead h3 {
+/* defines the styling of the benefit-articles class */
+
+.benefit-articles h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-/* defines the styling of the <h3> element, inside of the benefit-lead class */
-.benefit-brand h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* defines the styling of the <h3> element, inside of the benefit-brand class */
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-/* defines the styling of the <h3> element, inside of the benefit-cost class */
-.benefit-lead img {
+/* defines the styling of the <h3> element, inside of the benefit-articles class */
+
+.benefit-articles img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* defines the styling of the <img> element, inside of the benefit-lead class */
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* defines the styling of the <img> element, inside of the benefit-brand class */
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
-/* defines the styling of the <img> element, inside of the benefit-cost class */
-.search-engine-optimization {
+/* defines the styling of the <img> element, inside of the benefit-articles class */
+
+.content-articles {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -142,60 +128,28 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-/* defines the styling of the search-engine-optimization class */
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* defines the styling of the online-reputation-management class */
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/* defines the styling of the social-media-marketing class */
-.search-engine-optimization img {
+/* defines the styling of the content-articles class */
+
+.content-articles img {
     max-height: 200px;
 }
-/* defines the styling of the <img> element, inside of the search-engine-optimization class */
-.online-reputation-management img {
-    max-height: 200px;
-}
-/* defines the styling of the <img> element, inside of the online-reputation-management class */
-.social-media-marketing img {
-    max-height: 200px;
-}
-/* defines the styling of the <img> element, inside of the social-media-marketing class */
-.search-engine-optimization h2 {
+/* defines the styling of the <img> element, inside of the content-articles class */
+
+.content-articles h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-/* defines the styling of the <h2> element, inside of the search-engine-optimization class */
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* defines the styling of the <h2> element, inside of the online-reputation-management class */
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/* defines the styling of the <h2> element, inside of the social-media-marketing class */
-.footer {
+/* defines the styling of the <h2> element, inside of the content-articles class */
+
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
-/* defines the styling of the footer class */
-.footer h4 {
+/* defines the styling of the footer element */
+
+footer h4 {
     font-size: 20px;
 }
-/* defines the styling of the <h2> element, inside of the footer class */
+/* defines the styling of the <h4> element, inside of the footer element */
