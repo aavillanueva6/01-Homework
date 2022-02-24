@@ -41,8 +41,6 @@ A screenshot of the final deployed site is below:
 
 ***License***
 
-MIT License
-
 Copyright (c) [2022] [Alejandro Villanueva]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
