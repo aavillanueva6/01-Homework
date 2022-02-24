@@ -36,6 +36,11 @@ A summary of changes that I made to the code are as follows:
 The deployed version of the website with my refactored code is live on github pages at the following link:  
 https://aavillanueva6.github.io/01-Homework/
 
+A screenshot of the final deployed site is below:
+![A screenshot of the deployed site.](./assets/images/deployedSiteScreenshot.png)
+
+***License***
+
 MIT License
 
 Copyright (c) [2022] [Alejandro Villanueva]
