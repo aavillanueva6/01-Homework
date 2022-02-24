@@ -41,7 +41,9 @@ A screenshot of the final deployed site is below:
 
 ***License***
 
-Copyright (c) [2022] [Alejandro Villanueva]
+MIT License
+
+Copyright (c) 2022 Alejandro Villanueva
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
